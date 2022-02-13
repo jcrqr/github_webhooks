@@ -17,4 +17,4 @@ export { hmac } from "https://deno.land/x/crypto@v0.8.0/hmac.ts";
 /* djwt */
 export { create as createJWT } from "https://deno.land/x/djwt@v2.2/mod.ts";
 
-export { encodeToString } from "https://deno.land/std/encoding/hex.ts";
+export { encodeToString } from "https://deno.land/std@0.100.0/encoding/hex.ts";
